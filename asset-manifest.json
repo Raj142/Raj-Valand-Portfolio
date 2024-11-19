@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Raj-Valand-Portfolio/static/css/main.233912e6.css",
+    "main.js": "/Raj-Valand-Portfolio/static/js/main.b194037f.js",
+    "static/js/453.cbc2eabd.chunk.js": "/Raj-Valand-Portfolio/static/js/453.cbc2eabd.chunk.js",
+    "static/media/Raj_Valand.jpeg": "/Raj-Valand-Portfolio/static/media/Raj_Valand.6f21a7c3021495228d81.jpeg",
+    "static/media/bg-light.png": "/Raj-Valand-Portfolio/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/bg-dark.png": "/Raj-Valand-Portfolio/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/stock_trade_project.jpeg": "/Raj-Valand-Portfolio/static/media/stock_trade_project.f00e90ec353c0feb8e77.jpeg",
+    "static/media/dalBookBarn.jpg": "/Raj-Valand-Portfolio/static/media/dalBookBarn.f30a331248494b41cba5.jpg",
+    "index.html": "/Raj-Valand-Portfolio/index.html",
+    "main.233912e6.css.map": "/Raj-Valand-Portfolio/static/css/main.233912e6.css.map",
+    "main.b194037f.js.map": "/Raj-Valand-Portfolio/static/js/main.b194037f.js.map",
+    "453.cbc2eabd.chunk.js.map": "/Raj-Valand-Portfolio/static/js/453.cbc2eabd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.233912e6.css",
+    "static/js/main.b194037f.js"
+  ]
+}
