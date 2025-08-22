@@ -1,6 +1,7 @@
 import React from "react";
 import stockProject from '../assets/images/stock_trade_project.jpeg';
 import dalBookBarn from '../assets/images/dalBookBarn.jpg';
+import sportsCount from '../assets/images/SportsCount.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -8,6 +9,11 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://thesportscount.com" target="_blank" rel="noreferrer"><img src={sportsCount} className="zoom" alt="thumbnail" width="100%" height="70%"/></a>
+                <a href="https://thesportscount.com" target="_blank" rel="noreferrer"><h2>SportsCount</h2></a>
+                <p>Developed SportsCount, a platform that streamlines sports tournaments with features like team auctions, match scheduling, and live scoring to enhance player and audience engagement.</p>
+            </div>
             <div className="project">
                 <a href="https://github.com/Raj142/CSCI5308-StockTradingPlatform" target="_blank" rel="noreferrer"><img src={stockProject} className="zoom" alt="thumbnail" width="100%" height="70%"/></a>
                 <a href="https://github.com/Raj142/CSCI5308-StockTradingPlatform" target="_blank" rel="noreferrer"><h2>Stock Trade Management</h2></a>

@@ -12,11 +12,25 @@ function Timeline() {
       <div className="items-container">
         <h1>Career History</h1>
         <VerticalTimeline>
+        <VerticalTimelineElement
+            className="vertical-timeline-element--work"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="Jan 2025 - May 2025"
+            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
+            icon={<FontAwesomeIcon icon={faBriefcase} />}
+          >
+            <h3 className="vertical-timeline-element-title">Software Developer at Social Nature</h3>
+            <h4 className="vertical-timeline-element-subtitle">Vancouver, BC</h4>
+            <p>
+              Full Stack Development, React.js, TypeScript, PostgreSQL
+            </p>
+          </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="Sep 2022 - present"
+            date="Sep 2022 - Nov 2024"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
@@ -26,6 +40,7 @@ function Timeline() {
               Software Development, Leadership, Operation Load Responsibilities (On-call duties)
             </p>
           </VerticalTimelineElement>
+         
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="May 2022 - Aug 2022"
